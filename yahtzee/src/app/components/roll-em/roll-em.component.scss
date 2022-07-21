@@ -1,0 +1,71 @@
+:host {
+  min-width: 700px;
+
+  #roll-btn {
+    border: 0;
+    padding: 1em 2em;
+    background: #fff;
+    color: #ffa500;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+      color: #fff;
+      background: #ff5114;
+    }
+  }
+
+  #roll-btn.over {
+  }
+
+  #playing-table {
+    color: #fff;
+    font-size: 20vmin;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1em;
+    font-family: fantasy;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    background-image: -moz-linear-gradient(
+      #ff5114 0%,
+      #ff5114 40%,
+      #fff028 41%,
+      #fff028 60%,
+      #ffffff 60%,
+      #ffffff 100%
+    ); /* FF3.6-15 */
+    background-image: -webkit-
+      linear-gradient(
+        #ff5114 0%,
+        #ff5114 40%,
+        #fff028 41%,
+        #fff028 60%,
+        #ffffff 60%,
+        #ffffff 100%
+      ); /* Chrome10-25,Safari5.1-6 */
+    background-image: linear-gradient(
+      #ff5114 0%,
+      #ff5114 40%,
+      #fff028 41%,
+      #fff028 60%,
+      #ffffff 60%,
+      #ffffff 100%
+    );
+  }
+
+  .die {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1em;
+  }
+}
