@@ -1,0 +1,27 @@
+:host {
+  background: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+
+  h2 {
+    font-family: fantasy;
+  }
+
+  table {
+    flex: 1;
+    height: 90vh;
+    background: white;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  td {
+    border: 1px solid #ebebeb;
+    width: 160px;
+    padding: 6px;
+    font-family: "Arial";
+  }
+
+  .totals {
+    background: #f4f4f4;
+  }
+}
